@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+
+}
+
+.mainTitle{
+	font-family: "Bakbak One", sans-serif;
+	color: #b020d3;
+	text-shadow: 2px 2px 2px #fa27af;
+	font-size: 3vw;
+	text-align: center;
+}
