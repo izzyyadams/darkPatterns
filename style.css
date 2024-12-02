@@ -2,13 +2,150 @@ body {
 	background-color: black;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 
 }
 
-.mainTitle{
+.mainTitle {
 	font-family: "Bakbak One", sans-serif;
-	color: #b020d3;
+	color: #DC55F8;
 	text-shadow: 2px 2px 2px #fa27af;
 	font-size: 3vw;
 	text-align: center;
+	margin-bottom: 50vh;
+	margin-top: 20vh;
+}
+
+
+
+
+
+
+
+.darkPattern {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50vh;
+}
+
+.subtitle {
+	color: #1681fe;
+	text-shadow: 1px 1px 1px #3ed8a8;
+	font-family: "Rubik", sans-serif;
+	font-size: 2vw;
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	width: 60vw;
+	height: 50vh;
+	text-align: center;
+	background-color: #edede9; 
+    border-radius: 8px;
+    border: 2px solid #edede9; 
+    font-family: "Spline Sans", sans-serif;
+    font-size: 2vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.data {
+	height: 4.5vh;
+}
+
+.dataBox, .submit, .dropdownButton {
+	height: 75%;
+	font-family: "Spline Sans", sans-serif;
+	font-size: 1.2vw;
+}
+
+
+
+#unsubscribeContent {
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.smallMessage{
+	font-size: 1.2vw;
+}
+
+.allDropdowns{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	font-size: 1.2vw;
+	line-height: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.dropdownContent a{
+	display: block;
+	text-decoration: none;
+
+}
+
+.dropdown:hover .dropdownContent{
+	display: block;
+}
+
+.dropdownContent a:hover {background-color: #ddd;}
+
+.yesNoBut{
+	font-size: 2.5vw;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; 
+}
+
+#yes{
+	background-color: #BC2C1A;
+	color: white;
+	border: none;
+
+}
+
+#no{
+	background-color: #499F68;
+	color: white;
+	border: none;
+
+}
+
+.fail {
+	background-color: #B80000;
+	color: white;
+	font-family: "Bakbak One", sans-serif;
+
+}
+
+.pass{
+	background-color: #499F68;
+	color: white;
+	font-family: "Bakbak One", sans-serif;
+}
+
+.youtube{
+	margin-top: 100px;
+}
+
+a{
+	color: black;
 }
